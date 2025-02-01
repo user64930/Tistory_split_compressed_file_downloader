@@ -4,10 +4,10 @@ import urllib
 
 dir = './downloads/'
 
-fileName = ''#다운로드한 파일을 저장할 이름
-extension = '.7z.'#다운로드 파일 확장자
+fileName = '2ndtrax'#다운로드한 파일을 저장할 이름
+extension = '.zip.'#다운로드 파일 확장자
 
-url = ''
+url = 'https://jun1517.tistory.com/758'
 res = req.urlopen(url).read()
 soup = BeautifulSoup(res, 'html.parser')
 
